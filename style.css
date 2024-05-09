@@ -1,0 +1,62 @@
+html,body{
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 400px;
+    line-height: 1.8em;
+    color: #666; 
+}
+.pimg1{
+    background-image: url('image1.png');
+    min-height: 100%;
+}
+
+.pimg2{
+    background-image: url('image2.png');
+    min-height: 500px;
+}
+.pimg3{
+    background-image: url('image3.png');
+    min-height: 500px;
+}
+
+
+.pimg1,
+.pimg2,
+.pimg3{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* know we set the text */
+
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.text_bg{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.sc_One{
+    padding: 20px 50px;
+    text-align: center;
+}
+
+.sec_light{
+    background-color: white;
+    color: gray;
+}
